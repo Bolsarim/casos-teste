@@ -31,7 +31,7 @@ test('Soma de um número inteiro e um número decimal', ()=>{
 })
 
 test('Soma de um número inteiro e um número decimal', ()=>{
-    expect(somar(a,3)).toBe()
+    expect(somar(a,3)).toBe("")
 })
 
 
