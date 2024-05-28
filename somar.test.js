@@ -31,12 +31,17 @@ test('Soma de um número inteiro e um número decimal', ()=>{
 })
 
 test('Soma de um número inteiro e um número decimal', ()=>{
-    expect(somar(a,3)).toBe("")
+    expect(somar("A",3)).toBe("Caractere inválido")
 })
-
 
 
 test('Soma de grandes números', ()=>{
     expect(somar(999999999,999999999)).toBe(1999999998)
 })
+
+test('Somar "1" + "2" é igual a 3', ()=>{
+    expect(somar("1","2")).toBe(3)
+})
+
+
 
